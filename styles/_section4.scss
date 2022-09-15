@@ -1,0 +1,9 @@
+.section04 {
+    background: url(../images/block-house.jpg) no-repeat center top;
+    background-size: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(33, 1fr);
+}

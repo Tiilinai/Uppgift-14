@@ -1,0 +1,41 @@
+.section02 {
+    background: url(../images/town-low-opacity.jpg) no-repeat center top;
+    background-size: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(33, 1fr);
+}
+
+
+.sec2-left {
+    grid-column: 1 / 10;
+    grid-row: 2 / 17;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sec2-right {
+    grid-column: 11 /21;
+    grid-row: 2/17;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+}
+
+
+.section03 {
+    grid-column: 1 / 21;
+    grid-row: 27 / 34;
+    background: #333333;
+}

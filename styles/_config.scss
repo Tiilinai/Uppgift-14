@@ -9,9 +9,14 @@ $text-color: #FFFFFF;
 }
 
 html, body {
-    height: 100%;
     background: black;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 
 h1, h2 {
     font-weight: 700;
@@ -35,7 +40,23 @@ h3 {
     letter-spacing: 6.82px;
 }
 
-h1, h2, h3, p, a {
+h4 {
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+}
+
+
+h1, h2, h3, h4, p, a {
     color: $text-color;
+}
+
+button {
+    background: $primary-color;
+}
+
+button:hover {
+    border: 1.5px solid $text-color;
 }
 
