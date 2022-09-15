@@ -1,0 +1,39 @@
+$primary-color: #5474FD; 
+$text-color: #FFFFFF;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background: black;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+}
+
+h1, h2, h3, p, a {
+    color: $text-color;
+}
