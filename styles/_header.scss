@@ -31,7 +31,7 @@ form {
 
 form input {
     flex: 1;
-    border: none;
+    border: 1px;
     outline: none;
     font-weight: 400px;
     line-height: 26px;
@@ -41,7 +41,6 @@ form input {
 form button {
     background: $primary-color;
     padding: 10px 50px;
-    border: none;
     outline: none;
     letter-spacing: 1.4px;
     line-height: 26px;
@@ -55,11 +54,13 @@ form .fa-search {
 }
 
 form input:hover, input:focus {
-    border: 1.5px solid $primary-color;
+    border: 1px solid $primary-color;
 }
 
 form button:hover {
     border: 1.5px solid $text-color;
+    background: $primary-color;
+    color: $text-color;
 }
 
 
@@ -90,7 +91,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: $secondary-color;
 }
 
 

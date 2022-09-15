@@ -1,4 +1,6 @@
 $primary-color: #5474FD; 
+$secondary-color: #333333;
+$third-color: #232323;
 $text-color: #FFFFFF;
 
 * {
@@ -54,9 +56,56 @@ h1, h2, h3, h4, p, a {
 
 button {
     background: $primary-color;
+    color: $text-color;
+    width: 228px;
+    height: 63px;
+    border: none;
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    
 }
 
 button:hover {
-    border: 1.5px solid $text-color;
+    background: $text-color;
+    color: $primary-color;
+}
+
+
+.card1, .card2 {
+    background: $secondary-color;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+p.card-spain {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5;
+    color: #E8E8E8;
+}
+
+p.card-head {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 23px;
+
+}
+
+p.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 13px 0px 46px;
+    color: #E8E8E8;
 }
 
