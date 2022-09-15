@@ -4,6 +4,8 @@ $text-color: #FFFFFF;
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 html, body {
@@ -12,7 +14,6 @@ html, body {
 }
 
 h1, h2 {
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 2.4px;
@@ -37,3 +38,4 @@ h3 {
 h1, h2, h3, p, a {
     color: $text-color;
 }
+
