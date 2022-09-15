@@ -1,7 +1,7 @@
 .section05 {
     background: url(../images/sunset.jpg) no-repeat center top;
     background-size: 100%;
-    max-height: 76vh;
+    min-height: 80vh;
     position: relative;
     display: grid;
     grid-template-columns: repeat(30, 1fr);
@@ -12,3 +12,4 @@
     grid-row: 13 / 28;
     grid-column:  16 / 25;
 }
+
