@@ -63,10 +63,21 @@ form button:hover {
     color: $text-color;
 }
 
-span {
-    z-index: 2;
+// SCROLL DOWN LINK --------------------------------------------
+
+.scrolldown {
+    grid-row: 25 / 30;
+    grid-column: 10 /12;
+    display: flex;
+    justify-content: center;
 }
 
+a.scrolldown-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+}
 
 // BOTTOM NAVIGATION -------------------------------------------
 
@@ -91,7 +102,7 @@ nav {
 
 a {
     text-decoration: none;
-    margin-right: 12px;
+    margin-right: 1rem;
 }
 
 a:hover {

@@ -1,27 +1,21 @@
 .section02 {
     background: url(../images/town-low-opacity.jpg) no-repeat center top;
     background-size: 100%;
-    min-height: 100vh;
-    position: relative;
+    max-height: 100vh;
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(33, 1fr);
 }
 
+// LEFT SIDE -----------------------------------------
 
 .sec2-left {
-    grid-column: 1 / 10;
-    grid-row: 2 / 17;
+    grid-column: 4 / 11;
+    grid-row: 7 / 19;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
 
-}
-
-.sec2-right {
-    grid-column: 11 /21;
-    grid-row: 2/17;
 }
 
 p {
@@ -33,9 +27,26 @@ p {
     letter-spacing: 1.6px;
 }
 
+// RIGHT SIDE IMAGES --------------------------------
 
+.img1 {
+    grid-column: 12 / 15;
+    grid-row: 4 / 17;
+}
+
+.img2 {
+    grid-column: 13 / 15;
+    grid-row: 13 / 19;
+}
+
+// BOTTOM ICONS ------------------------------------
 .section03 {
     grid-column: 1 / 21;
     grid-row: 27 / 34;
     background: $secondary-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
